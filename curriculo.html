@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho</title>
+<style>
+    /* Importando uma  fonte diretamente do google fonts, sem ser necessário baixa-la */
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    
+    body{
+        background-color: rgb(196, 220, 255);
+        /* Implementando a fonte importada do google Fonts;
+           E utilizando outras fontes alternativas, caso não abrir no mesmo navegador */
+        font-family: Montserrat, Arial, Helvetica, sans-serif;
+        /* Criando limites nos 4 cantos da página */
+        padding: 6em;
+
+    }
+    /* Separando os primeiros itens da lista, e classificando-os para centraliza-los
+    com um único código */
+    .primeiro{
+        text-align: center;
+    }
+    /* Alinhando citação à direita */
+    blockquote{
+        text-align: right;
+    }
+
+    h1{
+        font-family:Montserrat, Arial, Helvetica, sans-serif; color:#00376B;
+    }
+
+    h2{
+        /* Aplicando traços de separação para os títulos de nível 2 */
+        font-family: Montserrat, Arial, Helvetica, sans-serif; color:#00376B;
+        border-style: solid;
+        border-bottom-width: 2px;
+        border-top-width: 0;
+        border-left-width: 0;
+        border-right-width: 0;
+    }
+
+    img{
+        width: 300px;
+        height: 300px;
+        border-radius: 20px; /* Arredondando a borda da imagem */
+        box-shadow: 10px 10px 10px #001D38; /* Aplicando uma sombra a imagem */
+    }
+
+</style>
+</head>
+<body>
+    <!--Título de nível 1-->    
+    <h1 class="primeiro">Leonardo Matos Pessoni</h1> 
+        <!--1º parágrafo, contendo um prévia sobre mim!-->
+        <p class="primeiro"><strong>24 anos, solteiro, natural de Franca-SP</strong></p>
+        <!--Implementação de imagem, com a tag img-->
+        <!--O alt significa alternativo para a imagem "texto alternativo"-->
+        <p class="primeiro"><img src="leo.jpg" alt="foto de Leonardo Pessoni"></p>
+        <!--Citação em formato de bloco (segundo o Guanabara seria a citação completa)-->
+        <blockquote>"Uma vida sem desafios não <br> vale a pena ser vivida!"<br><strong><em>(Sócrates)</em></strong></blockquote>
+    <!--Título de nivel 2-->
+    <h2>Sobre mim</h2>
+        <!--Parágrafo não centralizado-->
+        <p>Sou um rapaz jovem, que desde criança tive muita curiosidade com a tecnologia. Gosto de praticar esportes, sair, conversar com amigos e o principal, sempre me divertir.</p>
+        <p>Desde de 2014 trabalho na área de automação industrial, já programando CLPs, Arduino, ... para máquinas industriais.</p>
+    <!--Mais um título de nível 2-->
+    <h2>Escolaridade</h2>
+        <!--Lista não ordenada com o marcador (°)-->
+        <ul type="square">
+            <li>Ensino Fundamental: <a href="https://www.facebook.com/juliocesar.delia.5" target="_blank" rel="external">E. E. Prof. Júlio Cesar D`elia</a></li>
+            <li>Ensino Médio: <a href="https://www.facebook.com/profile.php?id=100011801951345" target="_blank" rel="external">E. E. Evaristo Fabrício</a></li>
+            <li>CAI: <a href="https://www.facebook.com/SenaiFranca" target="_blank" rel="external">Márcio Bagueira Leal - Senai</a></li>
+            <li>Curso Técnico: <a href="https://www.facebook.com/ETECDrjuliocardoso" target="_blank" rel="external">Dr. Júlio Cardoso - Etec</a></li>
+        </ul>
+    <!--Mais um título de nível 2 em itálico-->    
+    <em><h2>Hobbies</h2></em>
+        <!--Lista ordenada com alfabeto em minúsculo-->
+        <ol type="1">
+            <li>Jogar Futebol</li>
+            <li>Jogar jogos online</li>
+            <li>Assistir filmes e séries</li>
+            <li>Sair para se divertir</li>
+        </ol>
+</body>
+</html>
